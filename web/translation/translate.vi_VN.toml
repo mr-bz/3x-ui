@@ -71,7 +71,7 @@
 
 [pages.login]
 "hello" = "Xin chào"
-"title" = "Chào mừng"
+"title" = "Chào mừng  MR BZ"
 "loginAgain" = "Thời hạn đăng nhập đã hết. Vui lòng đăng nhập lại."
 
 [pages.login.toasts]

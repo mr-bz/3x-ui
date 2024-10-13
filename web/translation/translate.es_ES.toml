@@ -71,7 +71,7 @@
 
 [pages.login]
 "hello" = "Hola"
-"title" = "Bienvenido"
+"title" = "Bienvenido MR BZ"
 "loginAgain" = "El límite de tiempo de inicio de sesión ha expirado. Por favor, inicia sesión nuevamente."
 
 [pages.login.toasts]

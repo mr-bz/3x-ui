@@ -71,7 +71,7 @@
 
 [pages.login]
 "hello" = "你好"
-"title" = "欢迎"
+"title" = "欢迎  MR BZ"
 "loginAgain" = "登录时效已过，请重新登录"
 
 [pages.login.toasts]

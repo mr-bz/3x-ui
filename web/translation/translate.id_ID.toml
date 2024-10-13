@@ -71,7 +71,7 @@
 
 [pages.login]
 "hello" = "Halo"
-"title" = "Selamat Datang"
+"title" = "Selamat Datang MR BZ"
 "loginAgain" = "Sesi Anda telah berakhir, harap masuk kembali"
 
 [pages.login.toasts]
