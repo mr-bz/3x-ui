@@ -27,19 +27,19 @@ func (a *InboundController) initRouter(g *gin.RouterGroup) {
 	g = g.Group("/inbound")
 
 	g.POST("/list", a.getInbounds)
-	g.POST("/add", a.addInbound)
+	// g.POST("/add", a.addInbound)
 	g.POST("/del/:id", a.delInbound)
-	g.POST("/update/:id", a.updateInbound)
+	// g.POST("/update/:id", a.updateInbound)
 	g.POST("/clientIps/:email", a.getClientIps)
 	g.POST("/clearClientIps/:email", a.clearClientIps)
-	g.POST("/addClient", a.addInboundClient)
+	// g.POST("/addClient", a.addInboundClient)
 	///g.POST("/:id/delClient/:clientId", a.delInboundClient)
 	g.POST("/updateClient/:clientId", a.updateInboundClient)
 	///g.POST("/:id/resetClientTraffic/:email", a.resetClientTraffic)
 	///g.POST("/resetAllTraffics", a.resetAllTraffics)
 	///g.POST("/resetAllClientTraffics/:id", a.resetAllClientTraffics)
 	g.POST("/delDepletedClients/:id", a.delDepletedClients)
-	g.POST("/import", a.importInbound)
+	// g.POST("/import", a.importInbound)
 	g.POST("/onlines", a.onlines)
 }
 
